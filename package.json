@@ -1,0 +1,25 @@
+{
+  "name": "small-movie-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.2.7",
+    "mongoose": "^5.5.12"
+  },
+  "engines": {
+    "node": "11.6.0"
+}
+}
