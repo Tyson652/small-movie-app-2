@@ -15,7 +15,7 @@
     "redux-form": "^8.2.3",
     "redux-thunk": "^2.3.0"
   },
-  "proxy": "http://localhost:3100",
+  "proxy": "http://localhost:80",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
