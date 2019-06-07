@@ -1,9 +1,9 @@
 const express = require('express')
 const path = require('path')
-require('dotenv').config()
 require('./db/mongoose')
 const movieRouter = require('./routers/movie')
 const cors = require('cors')
+require('dotenv').config()
 
 const app = express()
 const port = process.env.PORT || 3100
